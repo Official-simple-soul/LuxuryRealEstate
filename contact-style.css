@@ -4,12 +4,27 @@
     box-sizing: border-box;  
 }
 
+h1{
+    font-family: 'Rufina', serif;
+    font-size: 60px; 
+    font-weight: 700;
+    line-height: 72px;
+}
+
+p{
+    font-family: 'Raleway', sans-serif;
+    font-size: 24;
+    line-height: 40px;
+
+}
+
+
 .top-page{
     background-image: url(../LuxuryRealEstate/assest/Image@2x.png) !important;
     background-size: cover;
     background-repeat: no-repeat;
     background:linear-gradient(to bottom, none,#f5f3f1);
-    font-family: 'Rufina', serif;    
+    font-family: 'Rufina', serif;   
 }
 
 .leftside{
@@ -31,12 +46,21 @@
 }
 
 .contact-main{
-    font-family: 'Raleway', sans-serif;
     background-color: #f5f3f1;
 }
 
-.table{
-    background-color: transparent !;
+th{
+    background-color: #f5f3f1 !important;
+    font-size: 30px;
+    font-weight: 100;
+}
+
+td{
+    background-color: #f5f3f1 !important;
+    font-family: 'Raleway', sans-serif;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 24px;
 }
 
 .box2{
