@@ -4,6 +4,16 @@
     box-sizing: border-box;  
 }
 
+.navbar{
+    background-color: rgba(3, 3, 3, 0.2);
+    position: absolute !important;
+    top: 0%;
+}
+
+.navbar-nav {
+    column-gap: 40px !important;
+}
+
 h1{
     font-family: 'Rufina', serif;
     font-size: 60px; 
@@ -110,7 +120,6 @@ td{
 
     .contact-connectus{
         padding: 10px !important;
-    
     }
 
     .btn{
