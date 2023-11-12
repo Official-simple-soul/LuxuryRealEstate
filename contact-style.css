@@ -93,15 +93,19 @@ td{
     font-size: smaller;
 }
 
+.contact-connectus{
+    padding-left: 180px;
+}
+
 @media screen and (max-width: 768px){
     .leftside{
-        border-radius: none !important;
         border-top-left-radius: 50px !important; 
+        border-bottom-left-radius: none !important;
     }
 
     .rightside{
-        border-radius: none !important;
         border-bottom-right-radius: 50px !important;
+        border-top-right-radius: none !important;
     } 
     
     .btn{
