@@ -1,0 +1,128 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;  
+}
+
+.navbar{
+    background-color: rgba(3, 3, 3, 0.2);
+    position: absolute !important;
+    top: 0%;
+}
+
+.navbar-nav {
+    column-gap: 40px !important;
+}
+
+h1{
+    font-family: 'Rufina', serif;
+    font-size: 60px; 
+    font-weight: 700;
+    line-height: 72px;
+}
+
+p{
+    font-family: 'Raleway', sans-serif;
+    line-height: 20px;
+
+}
+
+.top-page{
+    background-image: url(../LuxuryRealEstate/assest/Image@2x.png) !important;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background:linear-gradient(to bottom, none,#f5f3f1);
+    font-family: 'Rufina', serif;   
+}
+
+.contact-leftside{
+    background-image: url(../LuxuryRealEstate/assest/Rectangle\ 133.png);
+    border-bottom-left-radius: 50px;
+    background-size: cover;
+    width: 400px; 
+    height: 450px;
+}
+.contact-rightside{
+    background-color: white;
+    border-top-right-radius: 50px;
+}
+
+.contact-website{
+    text-decoration:none; 
+    color:#808080;
+}
+
+.contact-main{
+    background-color: #f5f3f1;
+}
+
+.smallcase-p{
+    font-size: small;
+    color: #181D24;
+}
+
+th{
+    background-color: #f5f3f1 !important;
+    font-size: 35px;
+    font-weight: 100;
+}
+
+td{
+    background-color: #f5f3f1 !important;
+    font-family: 'Raleway', sans-serif;
+    font-weight: 400;
+    line-height: 24px;
+}
+
+.box2{
+    background-color: white;
+    margin-bottom: -150px;
+    position: relative;
+    border-bottom-right-radius: 70px;    
+}
+
+.form_container input, 
+.form_container textarea{
+    border:none;
+    border-width: 450px;
+    border-bottom: 1px solid #808080;
+    padding: 5px;
+}
+.btn{
+    width: 120px;
+    border-radius: 5px;
+    border-top-left-radius: none;
+}
+.contact-topfooter{
+    background-color:  #f5f3f1;
+}
+
+.contact-basefooter{
+    background-color: #DFE3E7;
+    padding-top: 250px;
+    font-size: smaller;
+}
+
+.contact-connectus{
+    padding-left: 180px;
+}
+
+@media screen and (max-width: 768px){
+    .contact-leftside{
+        border-top-left-radius: 50px !important; 
+        border-bottom-left-radius: none !important;
+    }
+
+    .contact-rightside{
+        border-bottom-right-radius: 50px !important;
+        border-top-right-radius: none !important;
+    } 
+
+    .contact-connectus{
+        padding: 10px !important;
+    }
+
+    .btn{
+        width: 350px !important;
+    }
+}
