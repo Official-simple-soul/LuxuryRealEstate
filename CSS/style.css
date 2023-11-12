@@ -1,0 +1,141 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+}
+header {
+    background-color: rgba(3, 3, 3, 0.2);
+    position: absolute !important;
+    top: 0%;
+}
+.navbar-brand {
+    font-family: Raleway;
+    font-size: 22px;
+    font-weight: 500;
+    line-height: 24px;
+    letter-spacing: 6px;
+    text-align: center;
+
+}
+.navbar-nav {
+    column-gap: 40px !important;
+}
+.navbar-nav li a {
+    font-family: Rufina;
+    /* font-size: 18px; */
+    font-weight: 400;
+    line-height: 24px;
+    letter-spacing: 1px;
+    text-align: center;
+    color: rgba(255, 255, 255, 0.94) !important;
+    text-decoration: none !important;
+    list-style: none !important;
+}   
+.home-hero-container {
+    background-image: url("/accessories/home-hero.png");
+    background-size: cover !important;
+    background-position: center !important;
+    height: 100vh !important;
+    display: flex !important;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    position: relative !important;
+}
+.home-main {
+    display: flex !important;
+    flex-direction: column !important;
+    align-items: center !important;
+    justify-content: center !important;
+}
+.home-hero-txt-1 {
+    font-family: Rufina;
+    font-size: 68px !important;
+    font-weight: 700 !important;
+    line-height: 100px !important;
+    letter-spacing: -1px !important;
+    text-align: center;
+    color: rgba(255, 255, 255, 1)!important;
+}
+.home-hero-txt-2 {
+    font-family: Raleway;
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 29px;
+    letter-spacing: 0.12em;
+    text-align: center;
+    color: rgba(201, 189, 171, 1);
+    background-color:  rgba(255, 255, 255, 0.94) !important;
+    padding: 5px 15px !important;
+}
+.home-select {
+    margin-top: 80px !important;
+    display: flex;
+    background-color: white !important;
+    padding: 5px 5px !important;
+    border-radius: 10px !important;
+}
+select {
+    padding: 10px 40px !important;
+    /* background-color: brown !important; */
+    
+}
+.search-btn {
+    background: rgba(91, 101, 111, 1);
+    padding: 15px 40px !important;
+    border-radius: 3px 11px 3px 11px;
+    font-family: Raleway;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    letter-spacing: 1px;
+    text-align: left;
+    color: white !important;
+    column-gap: 20px !important;
+}
+.search-btn i {
+    color: white !important;
+}
+select  {
+    font-family: Raleway !important;
+    font-size: 14px !important;
+    font-weight: 700 !important;
+    line-height: 24px !important;
+    letter-spacing: 0em !important;
+    text-align: left !important;
+    color: rgba(24, 29, 36, 1);
+    display: flex !important;
+    justify-content: center !important;
+    align-items: center !important;
+    column-gap: 30px;
+    border: none !important;
+    border-left: 2px solid #5b656f !important;
+}
+
+/* custom select styles */
+select {
+    width: 200px; /* Adjust the width */
+    /* padding: 10px; Adjust the padding */
+    border: 1px solid #999; /* Adjust the border */
+    color: #333; /* Adjust the text color */
+  }
+  #b-none {
+    border: 0 !important;
+  }
+  .home-2-txt-1 {
+    font-family: Rufina;
+    font-size: 40px;
+    font-weight: 700;
+    line-height: 72px;
+    letter-spacing: 0em;
+    text-align: center;
+
+  }
+  .dp-1 {
+    display: flex !important;
+    align-items: center;
+    justify-content: flex-end !important;
+  }
+  .bi-water {
+    text-align: left !important;
+  }
