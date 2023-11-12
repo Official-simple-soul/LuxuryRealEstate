@@ -35,14 +35,14 @@ p{
     font-family: 'Rufina', serif;   
 }
 
-.leftside{
+.contact-leftside{
     background-image: url(../LuxuryRealEstate/assest/Rectangle\ 133.png);
     border-bottom-left-radius: 50px;
     background-size: cover;
     width: 400px; 
     height: 450px;
 }
-.rightside{
+.contact-rightside{
     background-color: white;
     border-top-right-radius: 50px;
 }
@@ -108,12 +108,12 @@ td{
 }
 
 @media screen and (max-width: 768px){
-    .leftside{
+    .contact-leftside{
         border-top-left-radius: 50px !important; 
         border-bottom-left-radius: none !important;
     }
 
-    .rightside{
+    .contact-rightside{
         border-bottom-right-radius: 50px !important;
         border-top-right-radius: none !important;
     } 
