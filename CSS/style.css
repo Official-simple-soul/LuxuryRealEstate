@@ -47,7 +47,7 @@ padding-left: 180px;
 }
 
 .home-hero-container {
-  background-image: url("../accessories/home-hero.png");
+  background-image: url("/accessories/home-hero.png");
   background-size: cover !important;
   background-position: center !important;
   height: 100vh !important;
@@ -216,7 +216,7 @@ span i {
   width: 200px !important;
 }
 .hosted {
-  background-image: url("../accessories/mosque-pictures-moroccan-wall-pattern.png");
+  background-image: url("/accessories/mosque-pictures-moroccan-wall-pattern.png");
   border-radius: 0px 0px 80px 0px;
 }
 .about-logis {
@@ -292,7 +292,7 @@ text-align: left;
   justify-content: center !important;
   /* position: absolute !important; */
   height: 80vh !important;
-  background-image: url("../accessories/Rectangle\ 124.png");
+  background-image: url("/accessories/Rectangle\ 124.png");
   background-size: cover !important;
   background-position: center;
 }
@@ -915,7 +915,7 @@ text-align: left !important;
       justify-content: center !important;
       /* position: absolute !important; */
       /* height: 80vh !important; */
-      background-image: url("../accessories/Rectangle\ 124.png");
+      background-image: url("/accessories/Rectangle\ 124.png");
       background-size: cover !important;
       background-position: center;
       margin-top: 80% !important;
@@ -977,7 +977,7 @@ text-align: left !important;
       justify-content: center !important;
       /* position: absolute !important; */
       height: 80vh !important;
-      background-image: url("../accessories/Rectangle\ 124.png");
+      background-image: url("/accessories/Rectangle\ 124.png");
       background-size: cover !important;
       background-position: center;
     }
