@@ -513,6 +513,9 @@ text-align: left !important;
   text-align: left !important;
   color: rgba(24, 29, 36, 1) !important;
   }
+  .icons i {
+    font-size: 12px !important;
+  }
   .details-1 #normals {
     font-family: Raleway !important;
     font-size: 18px !important;
