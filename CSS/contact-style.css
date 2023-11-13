@@ -3,7 +3,6 @@
     padding: 0px;
     box-sizing: border-box;  
 }
-
 .navbar{
     background-color: rgba(3, 3, 3, 0.2);
     position: absolute !important;
@@ -28,7 +27,6 @@ p{
 }
 
 .top-page{
-    background-image: url(../accessories/Image@2x.png) !important;
     background-size: cover;
     background-repeat: no-repeat;
     background:linear-gradient(to bottom, none,#f5f3f1);
@@ -36,7 +34,6 @@ p{
 }
 
 .contact-leftside{
-    background-image: url(../accessories/Rectangle\ 133.png);
     border-bottom-left-radius: 50px;
     background-size: cover;
     width: 400px; 
