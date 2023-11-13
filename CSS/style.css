@@ -35,6 +35,13 @@ header {
 .contact-topfooter{
 background-color:  #f5f3f1;
 }
+.swiper {
+  width: 80%;
+  /* height: 300px; */
+}
+.swiper-wrapper {
+  padding-bottom: 40px;
+}
 
 .contact-basefooter{
 background-color: #DFE3E7;
@@ -1060,17 +1067,7 @@ text-align: left !important;
       box-shadow: 0px 1px 2px 0px rgba(16, 24, 40, 0.05);
       padding: 7px 0px !important;
     }
-    .send .btn {
-      background-color:  #5B656F !important;
-      padding: 10px 45px !important;
-      font-family: Raleway;
-      font-size: 18px;
-      font-weight: 800;
-      line-height: 24px;
-      letter-spacing: 0em;
-      text-align: left;
-      border-radius: 0px 10px 10px 10px;
-    }  
+   
     @media screen and (max-width: 768px){
       .leftside{
           border-top-left-radius: 50px !important; 
@@ -1087,9 +1084,7 @@ text-align: left !important;
       
       }
   
-      .btn{
-          width: 350px !important;
-      }
+     
   }
 
 }
