@@ -16,10 +16,36 @@ font-family: 'Raleway', sans-serif;
   background-color: #181D24 !important;
 }
 
+header {
+
+  background-color: rgba(3, 3, 3, 0.2 ) !important;
+  position: fixed !important;
+  top: 0;
+  width:100% ;
+  z-index: 100 !important;
+}
+
+.navbar-nav {
+  column-gap: 40px !important;
+}
+.navbar-nav li a {
+  font-family: 'Rufina', serif;
+  /* font-size: 18px; */
+  font-weight: 400;
+  line-height: 24px;
+  letter-spacing: 1px;
+  text-align: center;
+  color: rgba(255, 255, 255, 0.94) !important;
+  text-decoration: none !important;
+  list-style: none !important;
+}
+
 
 main{
     background: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0), rgba(255, 255, 255, 1), rgba(255, 255, 255, 0));
-}
+    padding-top: 100px;
+  }
+
 
 .vill-soho{
   margin-left: -12px; 
