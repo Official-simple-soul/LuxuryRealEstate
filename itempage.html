@@ -20,29 +20,70 @@
 </head>
 <body>
     <style>
-        header {
-    background-color: rgba(3, 3, 3, 0.2);
-    position: absolute !important;
-    top: 0%;
+      header {
+
+background-color: rgba(3, 3, 3, 0.2 ) !important;
+position: fixed !important;
+top: 0;
+width:100% ;
+z-index: 100 !important;
 }
+
 .navbar-nav {
-    column-gap: 40px !important;
+column-gap: 40px !important;
 }
 .navbar-nav li a {
-    font-family: Rufina;
-    /* font-size: 18px; */
-    font-weight: 400;
-    line-height: 24px;
-    letter-spacing: 1px;
-    text-align: center;
-    color: rgba(255, 255, 255, 0.94) !important;
-    text-decoration: none !important;
-    list-style: none !important;
+font-family: 'Rufina', serif;
+/* font-size: 18px; */
+font-weight: 400;
+line-height: 24px;
+letter-spacing: 1px;
+text-align: center;
+color: rgba(255, 255, 255, 0.94) !important;
+text-decoration: none !important;
+list-style: none !important;
 }
+
+
+main{
+  background: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0), rgba(255, 255, 255, 1), rgba(255, 255, 255, 0));
+  padding-top: 100px;
+}
+
     </style>
     </style>
-   
-      <main class="item-main">
+ 
+      <main class="item-main pt-4">
+        <header class="container-fluid position-fixed w-100">
+            <nav class="navbar navbar-expand-lg">
+                <div class="container"> <!-- Rework -->
+                    <a class="navbar-brand text-white fs-6" href="#">LUXURY RENTALS</a>
+                    <button class="navbar-toggler btn" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                        <i class="fa-solid fa-bars fs-4 navbar-toggle"></i>
+                    </button>
+                    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                        <ul class="navbar-nav ms-auto mb-2 mb-lg-0 text-white">
+                            <li class="nav-item fs-6">
+                                <a class="nav-link active" aria-current="page" href="index.html">HOME</a>
+                            </li>
+                            <li class="nav-item fs-6">
+                                <a class="nav-link active" aria-current="page" href="villa.html">VILLA</a>
+                            </li>
+                            <li class="nav-item fs-6">
+                                <a class="nav-link active" aria-current="page" href="itempage.html">ITEMS</a>
+                            </li>
+                            <li class="nav-item fs-6">
+                                <a class="nav-link" href="about.html">ABOUT US</a>
+                            </li>
+                            <li class="nav-item fs-6">
+                                <a class="nav-link" href="contact.html">CONTACT US</a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </nav>
+        </header> 
+    
         <div class="container  text-center">
             <div class="vill-soho mt-4 d-flex justify-content-between align-items-center" >
                     <h1 class=" fs-3 pt-3 text-white" >Villa SOHO</h1>

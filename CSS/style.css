@@ -18,6 +18,13 @@ header {
   text-align: center; */
 
 }
+i {
+  color: #f5e1d6 !important;
+}
+.icons i {
+  font-size: 12px !important;
+  color: #f5e1d6 !important;
+}
 .navbar-nav {
   column-gap: 40px !important;
 }
@@ -267,7 +274,7 @@ span i {
   line-height: 64px;
   letter-spacing: 1px;
   text-align: left;
-  color: rgb(245, 225, 214);
+  color: #f5e1d6;
 }
 .connected p {
   font-family: Rufina;
@@ -513,9 +520,7 @@ text-align: left !important;
   text-align: left !important;
   color: rgba(24, 29, 36, 1) !important;
   }
-  .icons i {
-    font-size: 12px !important;
-  }
+ 
   .details-1 #normals {
     font-family: Raleway !important;
     font-size: 18px !important;
