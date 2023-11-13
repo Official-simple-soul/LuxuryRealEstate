@@ -1,0 +1,36 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+ .container-fluid {
+    /* height: auto; */
+    max-width: 100%;
+    /* position: relative; */
+}
+/* .img{
+    width: 100vw;
+    height: 50vh;
+} */
+
+.top{
+    background-image: url(../accessories/Rectangle\ 124.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+    width: 100%;
+    /* position: absolute; */
+    
+}
+.row{
+    /* position: relative; */
+}
+input{
+    border: none!important;
+    border-bottom: 1px solid!important;
+    
+}
+.bottom{
+    /* position: absolute; */
+}
